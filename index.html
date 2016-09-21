@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1">
+
+    <title>Stefan's HitchLog</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+
+    <section class="main">
+      <h1>
+        <span class="h1f">hitch</span>
+        <span class="h1s">log</span>
+      </h1>
+
+      <blockquote>
+        <p>
+          “Let's think the unthinkable, let's do the undoable. Let us prepare to
+          grapple with the ineffable itself, and see if we may not eff it after
+          all.”
+        </p>
+        <footer>
+          <cite>Douglas Adams</cite>
+        </footer>
+      </blockquote>
+
+      <p>
+        I'm Stefan, I quite my job in July 2016, sold/gifted my belongings in August and since September 2016 I'm trying to reach India (so far planed) by hitchhiking.<br />
+        As requested by many friends, family and random people out there I'm going to publish some of my stories on this website in the future. Stay tuned!
+      </p>
+
+    </section>
+
+    <script>
+      $( document ).ready(function() {
+        $("li.poper").popover({
+          placement: 'bottom',
+          html: true,
+          trigger: 'manual'
+        }).click(function() {
+          $(this).popover('toggle')
+        });
+      });
+    </script>
+
+    <!-- Google Analytics - TODO: replace with piwik -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-84561320-1');ga('send','pageview');
+    </script>
+
+
+  </body>
+</html>

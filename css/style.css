@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Roboto);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif important!;
+}
+body {
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+p {
+    line-height: 1.4em;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+    transition: all 300ms ease-in-out;
+}
+.main p a{
+    border-bottom:dotted 1px rgba(255,255,255,.2);
+}
+.main p a:hover {
+    color:#eee;
+    border-bottom-color: rgba(255,255,255,0);
+}
+.main {
+    display: block;
+    position:absolute;
+    bottom:10%;
+    min-height: 250px;
+    height: 4em;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.4);
+    color:grey;
+}
+.main h1 {
+    font-family:'Poiret One', cursive;
+    font-size: 4em;
+    margin-bottom: 0;
+    word-spacing: -20px;
+    color:grey;
+}
+
+.main h1 span.h1f {
+    font-weight: 400;
+}
+.main h1 span.h1s {
+    font-weight: 600;
+}
